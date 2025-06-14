@@ -21,6 +21,7 @@ while energie >0 and tour < 10:
     energie -= 1
     tour +=1
     type_salle = ["vide", "piege","enigme"]
+    # ge;
     salle = random.choice(type_salle)
     if salle == "vide":
         print("salle vide ! tu ne perds rien mais, tu ne gagnes rien aussi")
